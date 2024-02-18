@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ 
+.Contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;   
+}
+.Contain img{
+    margin-top: 20px;
+}
+.btn button{
+    width: 68px;
+    height: 30px;
+    margin-top: 23px;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    border: 1px solid white;
+    box-shadow: 3px 3px black;
+}
+.btn button:hover{
+    background-color:brown;
+    color: white;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
